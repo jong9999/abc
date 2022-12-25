@@ -1,11 +1,7 @@
-function meeAt(y, m, d) {
-  if(y === Number) {
-    console.log(y,'년');
-  }else if(y === true, m === true, d === false) {
-    console.log(y,'년', m,'월');
-  }else if(y === true, m === true, d === false) {
-    console.log(y,'/', m,'/', d);
+for(let i=1; i<=50; i++){
+  if(i%3==0){
+    console.log('짝');
+  }else{
+    console.log(i);
   }
 }
-
-meeAt(2022)
